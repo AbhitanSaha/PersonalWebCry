@@ -1,0 +1,35 @@
+.line {
+    background-color: deeppink;
+    width: 200px;
+    height: 30px;
+    margin: 25px auto;
+}
+
+body {
+    text-align: center;
+}
+
+#app {
+    background-color: darkred;
+    width: 100%;
+    height: 800px;
+}
+
+#game {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 800px;
+}
+
+#chatbot {
+    background-color: deepskyblue;
+    width: 100%;
+    height: 800px;
+}
+
+img {
+    transition: transform .2s;
+}
+img:hover{
+    transform:scale(0.9)
+}
